@@ -1,5 +1,5 @@
 // program that finds all of the prime numbers between 2 and 100.
-
+// 
 public class SelfTestTwo_PrimeFind {
     public static void main(String[] args ) {
 
