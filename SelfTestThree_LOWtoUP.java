@@ -19,7 +19,7 @@ public class SelfTestThree_LOWtoUP {
                 c = (char) (c - 32) ; // then decrease 32 to make it Uppercase
                 count++ ; // increase counter to denote case change
             }
-            System.out.print(c ) ;
+            if ( c != '.') System.out.print(c ) ; // if first character enter is " . " then ignore 
 
         }while ( c != '.') ;
 
