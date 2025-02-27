@@ -1,9 +1,9 @@
 // Queue(FIFO) = the element which goes first will be the first to get out 
 
 class Queue {
-    char[] queue ; // storing charactors in queue with array
-    int size ;
-    int putloc , getloc ; // putloc is position where data is added and getloc is where data is removed
+    private char[] queue ; // storing charactors in queue with array
+    private int size ;
+    private int putloc , getloc ; // putloc is position where data is added and getloc is where data is removed
 
     Queue(int x ) {
         queue = new char[x] ;
