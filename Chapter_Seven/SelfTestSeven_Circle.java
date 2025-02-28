@@ -2,7 +2,7 @@
 implement subclass of TwoDShape called Circle. Include an area( ) method that computes
 the area of the circle and a constructor that uses super to initialize the TwoDShape portion.
 */
-/* 
+
 class TwoDShape {
     private double width ;
     private double height ;
@@ -48,7 +48,7 @@ class TwoDShape {
     abstract double area();
 
 }
-*/
+
 
 class Circle extends TwoDShape {
 
