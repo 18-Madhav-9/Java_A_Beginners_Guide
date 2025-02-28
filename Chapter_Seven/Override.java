@@ -21,13 +21,15 @@ class B extends A {
     }
     // display k – this overrides show() in A
     void show() {
+        // use super to use the superclass method 
+        super.show() ;
         System.out.println("k: " + k);
     }
 }
 
 class Override {
     public static void main(String args[]) {
-        B subOb = new B(1, 2, 3);
-        subOb.show(); // this calls show() in B
+        B subOb = new B(1, 4, 3);
+        subOb.show(); // this calls show() in B and super from A
     }
 }
